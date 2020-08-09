@@ -25,11 +25,6 @@ public class Reporting extends BaseClass {
         report.flush();
     }
 
-    private static String takeScreenshot(boolean status)
-    {
-        return SeleniumDriverInstance.takeScreenshot(status);
-    }
-
     public static void createTest()
     {
         if(report == null) setup();

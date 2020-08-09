@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class GetRequestTestSuite extends BaseClass
+public class ListAllDogsTestSuite extends BaseClass
 {
     @Test
     public  void  testListAllDogs(){
